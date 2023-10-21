@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = [
+    "cs2-schema/declaration",
+    "cs2-schema/cutl",
+    "cs2-schema/generated",
+    "kernel/interface",
+    "kernel/shared",
+    "controller",
+    "cs2",
+    "overlay",
+]
+exclude = [
+    "kernel/driver"
+]
+
+[profile.dev]
+incremental = true
+
+[profile.release]
+panic = "abort"
+lto = true

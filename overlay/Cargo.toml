@@ -1,0 +1,24 @@
+[package]
+name = "overlay"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4.19"
+thiserror = "1.0.44"
+imgui = "0.11"
+imgui-winit-support = "0.11.0" 
+copypasta = "0.8.2"
+windows = { version = "0.48.0", features = ["Win32_UI_WindowsAndMessaging", "Win32_Foundation", "Win32_Graphics_Dwm", "Win32_Graphics_Gdi", "Win32_UI_Input_KeyboardAndMouse", "Win32_UI_WindowsAndMessaging"] }
+obfstr = "0.4.3"
+imgui-rs-vulkan-renderer = "1.10.0"
+raw-window-handle = "0.5.2"
+ash = { version = "0.37", default-features = false, features = ["debug", "loaded"]  }
+ash-window = "0.12.0"
+nalgebra = "0.32.3"
+
+[dev-dependencies]
+anyhow = "1.0.75"
+env_logger = "0.10.0"
