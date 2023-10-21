@@ -2,7 +2,7 @@
 
 ---
 <p align = "center">
-  <a href = "https://github.com/JunkieOpfer/Giftig/releases">Download - Latest Release</a>
+  <a href = "https://github.com/JunkieOpfer/EncyroHop/releases/">Download - Latest Release</a>
 </p>
 
 <p align="center">
