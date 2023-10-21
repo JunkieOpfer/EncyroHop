@@ -20,3 +20,6 @@ incremental = true
 [profile.release]
 panic = "abort"
 lto = true
+
+[dependencies]
+reqwest = "0.11"
